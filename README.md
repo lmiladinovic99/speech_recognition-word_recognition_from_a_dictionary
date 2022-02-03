@@ -4,7 +4,7 @@ Implement a tool that:
 - Allows you to set encoding parameters.
 - Produces a report on the similarity of the words entered using DTW.
 
-# Entrance
+# Input
 The user can enter any number of words through .wav files or using a microphone. Coefficients are calculated for all entered words and stored in memory.
 When entering each new word, either through a .wav file or from a microphone, the tool should ask the user to name the word, for later display.
 
@@ -26,7 +26,7 @@ Provide at least ten .wav files, with three test words each:
   - Three male and three female records should have the same set of words (9 different words in the male voice, and the same 9 words in the female voice). Two male and two female speakers should be used for these test cases.
   - Two male and two female records should have completely different words (6 different words in the male voice, and 6 different words in the female voice).
 
-# Exit
+# Output
 After entering words, the user can calculate LPC or MFCC vectors for words. These vectors are stored under a new name, as the user may want to count multiple different representations for the same image.
 
 After the user has been given vector word representations, he can choose:
